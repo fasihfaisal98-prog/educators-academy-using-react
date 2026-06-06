@@ -1,0 +1,95 @@
+@import "tailwindcss";
+ .parent {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  width: 100%;
+  max-width: 3  00px;
+  border: 1px solid gray;
+  min-height: 250px;
+  box-sizing: border-box;
+}
+.top img{
+  width: 35px;
+  height: 30px;
+  border-radius: 50%;
+  /* position: absolute;
+  top: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid  rgb(228, 223, 223);
+  
+}
+.top button
+{
+  border-radius: 5px;
+  margin-top: -30px;
+  margin-left: 190px;
+  max-width: 70px;
+  display: flex;
+  align-items: center;
+  color: rgb(71, 71, 71);
+  border: none ;
+
+  
+}
+.center h3{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.center h3 span{
+  color: rgb(116, 114, 112);
+  font-size: 10px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 10px ;
+}
+.center h2{
+  /* margin-top: 70px; */
+   font-family: Arial, Helvetica, sans-serif;
+}
+.role1{
+  background-color: rgb(218, 215, 215);
+  border-radius: 5px;
+  max-width: 80px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  
+}
+ .role2 {
+  background-color: rgb(218, 215, 215);
+  border-radius: 5px;
+  max-width: 105px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-top: -25px;   /* moves upward */
+  margin-left: 85px;
+}
+.bottom h3{
+  margin-top: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.bottom button{
+  background : rgb(24, 23, 23);
+  color: white;
+  border-radius: 5px;
+  width: 110px;
+}
+.bottom h3 p{
+  opacity: 30%;
+}
+.p1{
+font-size: 10px;
+opacity: 50%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
